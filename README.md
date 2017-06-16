@@ -18,7 +18,7 @@ python Vignrere.py
 
 You are then asked to enter a master key, an application and a password, and then it creates writes the encrypted password to a .json file. You can look up the application names any time. If you run the code again and write "decode" instead of a password, your password is revealed.
 
-![password_manager_in_use](http://i.imgur.com/BAL43CX.png)
+![password_manager_in_use](http://i.imgur.com/tgZgsV7.png)
 
 Let me know if you're motivated to extend this with a popup-window to display the decoded password.
 Note that there are open software available which protects your passwords much better, although the code might not be as simple to read :)
