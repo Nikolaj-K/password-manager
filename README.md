@@ -3,20 +3,17 @@ Authored by Nikolaj Kuntner
 
 Created on 16. June 2017
 
-<br />
-
 ## Overview
-This short Python 2 script decrypts and encrypts any number of passwords using a single master password (private key) using a basic
+This short Python 2 script encrypts and decrypts any number of passwords using a private key (a single master password you choose) with a basic
 [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher).
 
 ## Usage
-Using the terminal/shell/command propmt, go to the folder with the python file and run it via
-
+Using the terminal/shell/command prompt, go to the folder with the python file and run it via
 ```python
 python Vignrere.py
 ```
 
-You are then asked to enter a master key, an application and a password, and then it creates writes the encrypted password to a .json file. You can look up the application names any time. If you run the code again and write "decode" instead of a password, your password is revealed.
+You are asked to enter a private key, an application name and a password for it. Then it creates and writes the encrypted password to a .json file. You can look up the application names at any time. If you run the code again and write "decode" instead of a password, your password is revealed.
 
 ![password_manager_in_use](http://i.imgur.com/tgZgsV7.png)
 
