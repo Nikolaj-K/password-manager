@@ -10,7 +10,7 @@ This short Python 2 script encrypts and decrypts any number of passwords using a
 ## Usage
 Using the terminal/shell/command prompt, go to the folder with the python file and run it via
 ```python
-python Vignrere.py
+python Vigenere.py
 ```
 
 You are asked to enter a private key, an application name and a password for it. Then it creates and writes the encrypted password to a .json file. You can look up the application names at any time. If you run the code again and write "decode" instead of a password, your password is revealed.
