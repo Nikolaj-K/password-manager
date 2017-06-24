@@ -15,7 +15,7 @@ python Vigenere.py
 
 You are asked to enter a private key, an application name and a password for it. Then it creates and writes the encrypted password to a .json file. You can look up the application names at any time. If you run the code again and write "decode" instead of a password, your password is revealed.
 
-![password_manager_in_use](http://i.imgur.com/tgZgsV7.png)
+![password_manager_in_use](http://i.imgur.com/TT9O9sU.png)
 
 Let me know if you're motivated to extend this with a popup-window to display the decoded password.
 Note that there are open software available which protects your passwords much better, although the code might not be as simple to read :)
