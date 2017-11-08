@@ -18,7 +18,7 @@ def symmetric_crypt(priv, pw, mode="encode"):
     result = "".join([chr(abs(n)) for n in ns])
     if mode == "decode":
         return result
-    else: # return encoded string
+    else: # return the encoded string
         return to_base64(result) # urlsafe_b64encode doesn't work here in Python 3
 
 def main(private_key, app, password):
